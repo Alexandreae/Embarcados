@@ -67,7 +67,7 @@
  
  //		NAME	FREQ
  
-#define NOTE_C4  262 
+#define NOTE_C4  262
 #define NOTE_D4  294
 #define NOTE_E4  330
 #define NOTE_F4  349
@@ -194,6 +194,7 @@
 /*MUSICAS*/
 
 //Piratas do Caribe
+//https://github.com/xitangg/-Pirates-of-the-Caribbean-Theme-Song
 int pirate_notes[] = {
 	NOTE_E4, NOTE_G4, NOTE_A4, NOTE_A4, 0,
 	NOTE_A4, NOTE_B4, NOTE_C5, NOTE_C5, 0,
@@ -297,7 +298,7 @@ int pirate_tempo[] = {
 	250, 125, 375, 250, 125, 375,
 	125, 125, 125, 125, 125, 500
 };
-
+//http://www.jk-quantized.com/blog/2015/11/09/tetris-theme-song-using-processing
 int tetrisNotes[] = { 
 	NOTE_E6, NOTE_B5, NOTE_C6, NOTE_D6,
 	NOTE_C6, NOTE_B5, NOTE_A5, NOTE_A5,
@@ -323,7 +324,7 @@ int tetrisDurations[] = {
 	200, 100, 100, 200, 
 	200, 200, 200, 200
 };
-
+//
 int happyBirthdayNotes[] = {
 	NOTE_C4, NOTE_C4, NOTE_D4, NOTE_C4,
 	NOTE_F4, NOTE_E4, NOTE_C4, NOTE_C4, 
